@@ -1,0 +1,19 @@
+header {
+  background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    padding: 10px; /* Añade un relleno de 10 píxeles alrededor del encabezado */
+    text-align: left; /* Alinea el texto al centro dentro del encabezado */
+}
+
+body {
+  background-color: #333; /* Color de fondo del cuerpo */
+  color: #fff; /* Color del texto del encabezado */
+  font-family: Arial, sans-serif; /* Fuente del texto */
+    margin: 0;
+    padding: 0;
+  }
+  
+app-home {
+    margin-top: 20px; /* Ajusta el margen superior para dejar espacio entre el header y el contenido de Home */
+}
+  

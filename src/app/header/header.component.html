@@ -1,1 +1,24 @@
-<p>header works!</p>
+
+<header>
+    <h1 class="Titulo">ReservaBook</h1>
+    <img src="imagenes/logo/Logo.png" alt="Logo de la aplicación">
+</header>
+   
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><button><a routerLink="/home">Home</a></button></li>
+                <li><button><a routerLink="/reservation">Reservation</a></button></li>
+                <li><button><a routerLink="/login">LogIn</a></button></li>
+                <li><button><a routerLink="/aboutUs">About Us</a></button></li>
+            </ul>
+        </nav> 
+        <router-outlet></router-outlet> 
+        <footer>
+            <p>Derechos de autor &copy; 2024 - James Andrey Florez Calderon</p>
+        </footer>
+    </main>
+</body>
+
+

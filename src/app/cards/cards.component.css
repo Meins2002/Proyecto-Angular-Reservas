@@ -1,0 +1,50 @@
+.Titulo-de-inicio{
+  font-size: 40px; /* Tamaño de fuente del título */
+  color: rgb(248, 243, 243);
+  font-weight: bold; /* Fuente en negrita */
+  margin-bottom: 10px; /*Margen negativo de entre el título del formulario y el contenido siguiente */
+}
+.container {
+    display: flex;
+    flex-direction: row ;
+   
+    .card-material {
+      max-width: 200px; /* Establece el ancho máximo de cada tarjeta */
+      margin: 5%; /* Establece un margen alrededor de cada tarjeta */
+    }
+  }
+  .container {
+    display: flex; /* Utiliza flexbox para distribuir y centrar las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente fila cuando no haya suficiente espacio */
+    justify-content: center; /* Centra las tarjetas horizontalmente dentro del contenedor */
+  }
+  
+  .card-material {
+    flex: 1 1 40%; /* Establece que las tarjetas ocupen un tercio del espacio disponible y tengan un ancho máximo del 40% */
+    max-width: calc(50% - 20px); /* Establece el ancho máximo de cada tarjeta a la mitad del contenedor menos 20 píxeles */
+    margin: 10px; /* Establece un margen de 10 píxeles alrededor de cada tarjeta */
+    font-family: Arial, sans-serif; /* Establece la fuente de la tarjeta */
+    font-size: 13px; /* Establece el tamaño de la letra */
+    color: #000000; /* Establece el color del texto */
+    background-color: #cdcdcf ; /* Establece el color de fondo de la tarjeta */
+    border-radius: 5px; /* Aplica un radio de borde a las esquinas de la tarjeta */
+    box-shadow: 0 16px 34px rgba(0, 0, 0, 0.1); /* Agrega una sombra a la tarjeta */
+    transition: box-shadow 0.3s ease; /* Agrega una transición suave a la sombra */
+    margin-bottom: 20px; /* Margen inferior entre las tarjetas */
+
+  }
+  
+
+.card-material:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra cuando se pasa el cursor sobre la tarjeta */
+}
+
+mat-card {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos dentro de cada tarjeta en una columna */
+  height: 100%; /* Ocupa toda la altura disponible dentro del contenedor */
+}
+
+mat-card-actions {
+  margin-top: auto; /* Mueve los botones de acciones hacia la parte inferior de la tarjeta */
+}

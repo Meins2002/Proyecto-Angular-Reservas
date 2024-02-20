@@ -1,19 +1,23 @@
-<p>reservation-list works!</p>
-<!-- Parte 2 Formulario -->
 <!-- reservation-list.component.html -->
-<form (ngSubmit)="onSubmit()">
-    <div>
-      <label for="bookTitle">Book Title:</label>
-      <input type="text" id="bookTitle" name="bookTitle" [(ngModel)]="bookTitle" required>
-    </div>
-    <div>
-      <label for="customerName">Customer Name:</label>
-      <input type="text" id="customerName" name="customerName" [(ngModel)]="customerName" required>
-    </div>
-    <div>
-      <label for="date">Date:</label>
-      <input type="date" id="date" name="date" [(ngModel)]="date" required>
-    </div>
-    <button type="submit">Create Reservation</button>
-  </form>
-  
+<header>
+  <p class="titulo-formulario">Haz tu Reservacion</p>
+</header>
+<body>
+  <div class="formulario-container">
+    <form (ngSubmit)="onSubmit()" class="formulario">
+        <div class="form-group">
+          <label for="bookTitle">Titulo del Libro:</label>
+          <input type="text" id="bookTitle" name="bookTitle" [(ngModel)]="bookTitle" required>
+        </div>
+        <div class="form-group">
+          <label for="customerName">Usuario:</label>
+          <input type="text" id="customerName" name="customerName" [(ngModel)]="customerName" required>
+        </div>
+        <div class="form-group">
+          <label for="date">Fecha:</label>
+          <input type="date" id="date" name="date" [(ngModel)]="date" required>
+        </div>
+        <button type="submit">Crear Reservación</button>
+      </form>
+  </div>
+</body>

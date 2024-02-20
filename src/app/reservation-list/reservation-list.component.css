@@ -1,0 +1,66 @@
+header {
+  background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    padding: 10px; /* Añade un relleno de 10 píxeles alrededor del encabezado */
+    text-align: center; /* Alinea el texto al centro dentro del encabezado */
+}
+ /* Estilos para el título del formulario */
+.titulo-formulario {
+  font-size: 40px; /* Tamaño de fuente del título */
+  font-weight: bold; /* Fuente en negrita */
+  margin-bottom: -30px; /*Margen negativo de entre el título del formulario y el contenido siguiente */
+}
+
+/* Estilos para el contenedor del formulario */
+.formulario-container {
+  display: flex; /* Establece el contenedor del formulario como un contenedor flexible */
+  flex-direction: column; /* Organiza los elementos dentro del contenedor verticalmente */
+  justify-content: center; /* Centra el contenido horizontalmente dentro del contenedor */
+  align-items: center; /* Centra el contenido verticalmente dentro del contenedor */
+  height: 100vh; /* Establece la altura del contenedor al 100% del alto del viewport */
+}
+
+/* Estilos para el formulario */
+.formulario {
+  width: 300px; /* Establece el ancho del formulario en 300 píxeles */
+  padding: 20px; /* Agrega un relleno de 20 píxeles alrededor del contenido del formulario */
+  border: 1px solid #ccc; /* Agrega un borde alrededor del formulario con un ancho de 1 píxel, un estilo sólido y un color gris claro */
+  border-radius: 5px; /* Aplica un radio de borde de 5 píxeles a las esquinas del formulario */
+  background-color: #f9f9f9; /* Establece un color de fondo para el formulario */
+}
+
+/* Estilos para los elementos del formulario */
+.form-group {
+  margin-bottom: 15px; /* Establece un margen inferior de 15 píxeles para los elementos del formulario agrupados */
+}
+
+.form-group label {
+  display: block; /* Muestra las etiquetas de los elementos del formulario como bloques */
+  margin-bottom: 5px; /* Establece un margen inferior de 5 píxeles para las etiquetas de los elementos del formulario */
+}
+
+.form-group input {
+  width: 100%; /* Establece el ancho de los campos de entrada de los elementos del formulario al 100% del ancho disponible */
+  padding: 8px; /* Agrega un relleno de 8 píxeles alrededor del contenido de los campos de entrada */
+  border: 1px solid #ccc; /* Agrega un borde alrededor de los campos de entrada con un ancho de 1 píxel, un estilo sólido y un color gris claro */
+  border-radius: 3px; /* Aplica un radio de borde de 3 píxeles a las esquinas de los campos de entrada */
+  box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto total de los campos de entrada */
+}
+
+button[type="submit"] {
+  width: 100%; /* Establece el ancho del botón de envío al 100% del ancho disponible */
+  padding: 10px; /* Agrega un relleno de 10 píxeles alrededor del contenido del botón de envío */
+  border: none; /* Elimina el borde del botón de envío */
+  border-radius: 3px; /* Aplica un radio de borde de 3 píxeles a las esquinas del botón de envío */
+  background-color: #007bff; /* Establece un color de fondo para el botón de envío */
+  color: #fff; /* Establece el color del texto del botón de envío */
+  cursor: pointer; /* Establece el cursor del ratón como puntero al pasar sobre el botón de envío */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Cambia el color de fondo del botón de envío cuando se pasa el ratón por encima */
+}
+body{
+  background-color: #333; /* Color de fondo del encabezado */
+
+}

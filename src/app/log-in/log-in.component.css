@@ -1,0 +1,65 @@
+header {
+  background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    padding: 10px; /* Añade un relleno de 10 píxeles alrededor del encabezado */
+    text-align: center; /* Alinea el texto al centro dentro del encabezado */
+}
+/*Estilo titulo del formulario*/
+.Titulo-de-inicio{
+  font-size: 40px; /* Tamaño de fuente del título */
+  font-weight: bold; /* Fuente en negrita */
+  margin-bottom: -30px; /*Margen negativo de entre el título del formulario y el contenido siguiente */
+}
+/* Estilos para el contenedor principal */
+.Inicio-sesion {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Utiliza el 100% del alto de la ventana */
+}
+
+/* Estilos para el formulario */
+form {
+  width: 300px; /* Ancho del formulario */
+  padding: 20px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #f9f9f9; /* Color de fondo */
+}
+
+/* Estilos para los elementos del formulario */
+.tabla {
+  margin-bottom: 15px; /* Espaciado entre elementos */
+}
+
+.tabla label {
+  display: block; /* Muestra las etiquetas en bloques */
+  margin-bottom: 5px; /* Espaciado entre etiqueta y campo de entrada */
+}
+
+.tabla input {
+  width: 100%; /* Ancho completo */
+  padding: 8px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde */
+  border-radius: 3px; /* Bordes redondeados */
+  box-sizing: border-box; /* Incluye el relleno en el ancho */
+}
+
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 3px; /* Bordes redondeados */
+  background-color: #007bff; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  cursor: pointer; /* Cursor al pasar */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+body{
+  background-color: #333; /* Color de fondo del encabezado */
+ 
+}

@@ -11,6 +11,10 @@ import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CardsComponent } from './cards/cards.component';
+import { MatCardModule} from '@angular/material/card';
+import { MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -21,12 +25,16 @@ import { FormsModule } from '@angular/forms';
     LogInComponent,
     HomeComponent,
     AboutUsComponent,
-    NavBarComponent
+    NavBarComponent,
+    CardsComponent, 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
